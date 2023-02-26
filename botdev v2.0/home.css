@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(100, 99, 99);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 2s , color 5s;
+}
+
+
+#resumé{
+    background-color: rgb(49, 48, 48);
+    height: 130px;
+    width: 780px;
+    text-align: left;
+    border-radius: 1rem;
+    align-items: center;
+    /* atribuation de l'animation */
+    animation-name: ani;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    
+}
+
+/* animation */
+@keyframes ani {
+    16%{background-color:  rgb(49, 48, 48);}
+    20%{background-color: blueviolet;}
+    50%{background-color: brown;}
+    80%{background-color: chartreuse;}
+    100%{background-color: darkgreen;}
+}
+
+
+#aperçu{
+    background-color:  rgb(49, 48, 48);
+    width: 950px;
+    border-radius: 1rem;
+    align-items: center;
+    animation-name: ani;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+
+img{
+    border-radius: 1rem;
+}
+
+
+button{
+    border: none;
+    background-color: black;
+    border-radius: 1rem;
+    
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    animation-name: ani2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+#lien{
+    background-color: rgb(175, 175, 179);
+}
+
+@keyframes ani2 {
+    16%{color:  rgb(49, 48, 48);}
+    20%{color: blueviolet;}
+    50%{color: brown;}
+    80%{color: chartreuse;}
+    100%{color: darkgreen;}
+}
